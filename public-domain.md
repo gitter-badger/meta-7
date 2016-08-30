@@ -10,9 +10,37 @@ Scientific articles that are in the public domain due to expired copyright or be
 
 3. A freely available version of the public domain work is not available because copyright is being wrongly asserted (sometimes called copyfraud)
 
+### Use cases 
+
+- As a researcher, I want to a big pool of articles to text and data mine to liberate facts from them.
+- As an Open Access advocate I want to liberate these articles from behind paywalls to grow the commons.
+- As a researcher I want to create text versions of articles so that these works can be more easily read. 
+- As an educator I want to identify formulas that aren't machine readable so that they can be used to teach people Latex
+- As a researcher I want reliable access to articles in the public domain so I don't need to buy them from publishers :) 
+
+### Proposed Roadmap
+
+#### Short term (Ideal: Jan 1st, Realistic: 1 year)
+- Make pre-1900 articles availiable (est 900,000) for 6 publishers (<900,000)
+ - [ ] A formal document showing that these articles clearly can be put into the public domain
+ - [ ] Notify one repository (probably EU) that we're going to make these articles availiable in
+ - [ ] Confirm it is possible for these articles to be found from a paywall via the Open Access Buton and other tools
+ - [ ] Consider likely responses to this initiative
+ - [ ] See if Julia Reda would be interested in supporting this
+
+#### Medium term
+- post-1900 articles
+
+#### Long term
+- Take articles that're recently published and say when they'll go into the public domain
+- Take article that're recently publisher and put them in the public domain when possible
+- If copyright rules change, enable the system to show the impact
+
 ### Determine what works are in the public domain 
 
 #### Legal
+
+##### Short
 
  - [ ] Is the copyright term based on the author or the entity (i.e., publisher) when all copyright is transferred in a license agreement?
  - [ ] If based on the author, do *all* authors need to be deceased (i.e., the collective) and then 70Y PM (the longest)?
@@ -25,15 +53,22 @@ Scientific articles that are in the public domain due to expired copyright or be
 
  #### Architecture
 
+##### Short
+
  - [ ] Create local copy of the [CrossRef](https://crossref.org) database (WIP)
- - [ ] Create a daily update of the [CrossRef](https://crossref.org) database (WIP)
  - [ ] Determine public domain availability (e.g., [OutOfCopyright.eu](http://outofcopyright.eu/tools/); research in progress). *Might not be so easy after all, many fineprint legal issues. [Additional resources](https://archive.org/details/public_domain_calculators)*
- - [ ] Create a database with all unique author names, publication years, occurrences
+ 
+##### Long 
+ 
+ - [ ] Create a daily update of the [CrossRef](https://crossref.org) database (WIP)
+ - [ ] Create a database with all unique author names, publication years, occurrences - [ ] See if we can use ContentMine's Cambridge Servers to give good access
  - [ ] `DupPD`: Identify potentially duplicate authors that are regarded as separate (based on name similarity, occurence in approximately same timeframe)
  - [ ] `RankPD`: algorithm to rank what authors are most important to be checked whether deceased based on number of publications, timeframe of publications (i.e., likelihood of public domain), and cross-referencing with `DupPD`
  - [ ] `CheckWD`: check whether authors are in WikiData and retrieve decease date (if available; [API](https://www.wikidata.org/w/api.php))
 
 ### Make these works available in an open repository
+
+##### Short
 
  - [ ] Collect the works that are in the public domain (e.g., with [ContentMine](https://github.com/contentmine) software)
  - [ ] Clean all metadata from these works (e.g., with the [Metadata Anonymization Tool](https://github.com/jvoisin/MAT/commits/master))
