@@ -19,14 +19,45 @@ Re-write your entire README in clear language and define all terms. If you use j
 
 In the next module, you’ll create a Roadmap for your project, a way for you and any potential contributors to keep track of project work that’s upcoming and underway. -->
 
-# Liberate Science --- 
+# Liberate Science
 
-Welcome! This project aims to ensure public access to the public domain, for everyone and for any purpose. In short: identify scholarly works that could be public domain, but aren't, and provide a way to easily make them available. 
+Welcome! This project aims to ensure public access to the public domain, for everyone and for any purpose. In short: reenvision how we consume information by making knowledge a resource instead of a commodity. There are many projects to do, but we are currently working primarily on our [Liberator](https://github.com/libscie/liberator). This repo is our "State Of The Union" (SOTU) of what Liberate Science does.
 
-## Project description
+This is a project that aims to make information freely available for anyone whose interested, so if you are interested and have ideas, let us know (or maybe even [contribute](#contributor-guidelines))
+
+## Project descriptions
+
+### [Liberator](https://github.com/libscie/liberator)
+
+Public access to the public domain is crucial, but not a given. A public park is public domain, but it can be subject to access restrictions (for example, not after dark). With information, it makes no sense to us that access needs to be restricted, because copying costs virtually nothing and has much potential. 
+
+So why is this a problem? Example: this [research paper from 1871](http://dx.doi.org/10.1016/B978-0-08-006821-3.50008-8) can be freely available and reused, but isn't. Why? Because no one has made it available. This is just one of the 595,735 that are easy to identify as public domain of which public access isn't sure.
+
+That is where this project comes in. There are three steps: 
+
+1. identify what can be liberated
+
+2. get access to those
+
+3. deposit them and start spreading
+
+The end-goal of this project is a website where the user gets prompted to upload an article that can be liberated, if they have access (or can get access). All it requires is a quick download from the publisher, and upload to the website --- Liberator takes care of the rest. A visual representation of the pipeline will be added shortly.
 
 ## Contributor guidelines
 
-Looking to contribute? Great! We work on a Pull Request basis, but if you're unfamiliar with Github and spotted a mistake, please feel free to [e-mail](mailto:info@libscie.org) your contribution.
+Looking to contribute? Great! We work on a Pull Request basis, but if you're unfamiliar with Github and spotted a mistake, please feel free to [e-mail](mailto:info@libscie.org) your contribution. Being familiar with Github is not a prerequisite to contribute (if you want to learn go [here](https://try.github.io/levels/1/challenges/1)).
+
+Typical contributions that are appreciated:
+
+1. code reviews
+	* we all make mistakes, and so do we. Notice a mistake, no matter how small? Suggest a change.
+2. ideas
+	* we don't pretend to know all the answers, we just try to work towards them. See us go in a wrong direction? Stop us by providing us with your constructive insight. Submit a Github issue on the relevant project, or [e-mail us](mailto:info@libscie.org).
+3. text translation
+	* we prefer to have text available to everyone in their native language, because this makes it much easier to understand the content. Any contributions for translations are greatly appreciated, but are limited to Pull Requests initially due to the amount of work. 
+	* but if you don't feel confident about translating and would prefer us to provide our content in your language, [e-mail us](mailto:info@libscie.org) and we'll keep a vote count. Each time a language gets 100 votes and we cannot find a contributor to translate, we'll actually hire an official translator. A digital vote count check might be something we make sooner rather than later.
+	* we commit to maintaining up-to-date translations for new pages once a translation for a project has been added.
+4.  
 
 ## Code of conduct
+
